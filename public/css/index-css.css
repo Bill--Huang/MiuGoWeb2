@@ -1,0 +1,129 @@
+/******************************** Banner ********************************/
+#banner-content-container {
+	background-image: url(../resource/index/banner/banner.jpg);
+	background-repeat:no-repeat;
+	background-position:center 0;
+	background-size:cover;
+	height: 38em;
+	min-height: 650px;
+	max-height: 1100px;
+}
+
+#banner-logo-container {
+	height: 80%;
+}
+
+#banner-logo-container > div{
+	height: 100%;
+}
+
+#banner-logo {
+	background-image: url(../resource/index/banner/banner-logo.png);
+	background-repeat:no-repeat;
+	background-position:center center;
+	background-size: 9.47em 9.47em;
+	height: 100%;
+}
+
+#banner-slogan-container {
+	height: 20%;
+	background: -moz-linear-gradient(left,  rgba(0,0,0,0) 0%, rgba(0,0,0,0.65) 50%, rgba(0,0,0,0) 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, right top, color-stop(0%,rgba(0,0,0,0)), color-stop(50%,rgba(0,0,0,0.65)), color-stop(100%,rgba(0,0,0,0))); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(left,  rgba(0,0,0,0) 0%,rgba(0,0,0,0.65) 50%,rgba(0,0,0,0) 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(left,  rgba(0,0,0,0) 0%,rgba(0,0,0,0.65) 50%,rgba(0,0,0,0) 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(left,  rgba(0,0,0,0) 0%,rgba(0,0,0,0.65) 50%,rgba(0,0,0,0) 100%); /* IE10+ */
+	background: linear-gradient(to right,  rgba(0,0,0,0) 0%,rgba(0,0,0,0.65) 50%,rgba(0,0,0,0) 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00000000', endColorstr='#00000000',GradientType=1 ); /* IE6-9 */
+}
+#banner-slogan-container > div {
+	padding-top: 1em;
+}
+
+#banner-slogan-container h2, #banner-slogan-container h6 {
+	color: white;
+}
+
+#banner-slogan-container h2 {
+	font-size: 2.5em;
+}
+
+/******************************** Main content ********************************/
+#main-content-container h3, #main-content-container h6,  #main-content-container h6 a {
+	color: white;
+}
+
+#main-content-container h3{
+	font-size: 1.7em;
+	margin-bottom: 0.8em;
+}
+
+.part-content-container {
+	padding-top: 4em;
+	padding-bottom: 4em;
+}
+
+.part-items-container {
+	margin-top: 5em;
+}
+
+/******************************** Projects ********************************/
+#projects-content-container {
+	/*background-image: url(../resource/index/banner/banner.jpg);*/
+	background-repeat:no-repeat;
+	background-position:center 0;
+	background-size:cover;
+/*	height: 37.5em;
+	min-height: 650px;
+	max-height: 1200px;*/
+}
+
+#projects-content-container h3, #projects-content-container h6 {
+	color: black;
+}
+
+#projects-items-list li a div img {
+	margin-bottom: 2em;
+	/*width: 60%;*/
+	width: 10.5em;
+}
+
+#projects-more-container h6 a{
+	color: #00a0ec;
+}
+
+/******************************** Team ********************************/
+#team-content-container {
+	background-image: url(../resource/index/team/team-background.jpg);
+	background-repeat:no-repeat;
+	background-position:center 0;
+	background-size:cover;
+/*	height: 37.5em;
+	min-height: 650px;
+	max-height: 1200px;*/
+}
+
+#team-items-list li div img {
+	margin-bottom: 2em;
+	width: 8.5em;
+	border-radius: 8.5em;
+	border: 0.2em solid white;
+}
+
+#team-more-container {
+	margin-top: 8em;
+}
+
+/******************************** Enterprise ********************************/
+#enterprise-content-container {
+	background-image: url(../resource/index/enterprise/enterprise-background.jpg);
+	background-repeat:no-repeat;
+	background-position:center 0;
+	background-size:cover;
+/*	height: 37.5em;
+	min-height: 650px;
+	max-height: 1200px;*/
+}
+
+#enterprise-more-container {
+	margin-top: 6em;
+}

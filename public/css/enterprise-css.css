@@ -1,0 +1,97 @@
+/******************************** Banner ********************************/
+#banner-content-container {
+	background-image: url(../resource/enterprise/banner/enterprise-banner.jpg);
+	background-repeat:no-repeat;
+	background-position:center 0;
+	background-size:cover;
+	height: 43em;
+	min-height: 650px;
+	max-height: 1300px;
+}
+
+#banner-title-container {
+	position: relative;
+	height: 25%;
+	z-index: 1000;
+}
+
+#banner-title-container > div{
+	height: 100%;
+}
+
+#banner-main-title {
+	color: white;
+	margin-top: 2em;
+	margin-bottom: 1em;
+}
+
+#banner-btn {
+	font-weight: lighter;
+	background-color: #e81953;
+}
+
+#banner-decoration-container {
+	position: relative;
+	height: 75%;
+	z-index: 0;
+}
+
+#banner-decoration-container > div{
+	height: 100%;
+}
+
+#banner-decoration {
+	background-image: url(../resource/enterprise/banner/enterprise-banner-decoration.png);
+	background-repeat:no-repeat;
+/*	background-position:center bottom;
+	background-size: contain;*/
+	background-position:center top;
+	background-size: cover;
+	width: 100%;
+	height: 100%;
+}
+
+/******************************** Brief ********************************/
+#brief-content-container {
+	padding: 3em 0 5em 0;
+}
+
+#brief-title-container {
+	padding-bottom: 2.5em;
+}
+
+#brief-intro-container {
+	width: 40%;
+	padding-bottom: 5em;
+}
+
+#brief-logo-container {
+}
+
+/******************************** Process ********************************/
+#process-content-container {
+	padding: 2em 0 5em 0;
+	border-top: 1px solid #e7e7ef;
+	background: rgb(249,249,255); /* Old browsers */
+	background: -moz-linear-gradient(top,  rgba(249,249,255,1) 0%, rgba(254,254,255,1) 50%, rgba(255,255,255,1) 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(249,249,255,1)), color-stop(50%,rgba(254,254,255,1)), color-stop(100%,rgba(255,255,255,1))); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  rgba(249,249,255,1) 0%,rgba(254,254,255,1) 50%,rgba(255,255,255,1) 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  rgba(249,249,255,1) 0%,rgba(254,254,255,1) 50%,rgba(255,255,255,1) 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  rgba(249,249,255,1) 0%,rgba(254,254,255,1) 50%,rgba(255,255,255,1) 100%); /* IE10+ */
+	background: linear-gradient(to bottom,  rgba(249,249,255,1) 0%,rgba(254,254,255,1) 50%,rgba(255,255,255,1) 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f9f9ff', endColorstr='#ffffff',GradientType=0 ); /* IE6-9 */
+}
+
+#process-title-container {
+	padding-bottom: 3em;
+}
+
+#process-title-container img {
+	width: 4em;
+	padding-bottom: 2.5em;
+}
+
+#process-items-container img{
+	width: 90%;
+	padding-bottom: 1em;
+}
