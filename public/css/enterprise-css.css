@@ -1,3 +1,7 @@
+h3 {
+	font-size: 1.5em;
+}
+
 /******************************** Banner ********************************/
 #banner-content-container {
 	background-image: url(../resource/enterprise/banner/enterprise-banner.jpg);
@@ -95,3 +99,53 @@
 	width: 90%;
 	padding-bottom: 1em;
 }
+
+/******************************** Contact ********************************/
+#contact-content-container {
+	padding: 2em 0 5em 0;
+	border-top: 1px solid #e7e7ef;
+	background: rgb(249,249,255); /* Old browsers */
+	background: -moz-linear-gradient(top,  rgba(249,249,255,1) 0%, rgba(254,254,255,1) 50%, rgba(255,255,255,1) 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(249,249,255,1)), color-stop(50%,rgba(254,254,255,1)), color-stop(100%,rgba(255,255,255,1))); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  rgba(249,249,255,1) 0%,rgba(254,254,255,1) 50%,rgba(255,255,255,1) 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  rgba(249,249,255,1) 0%,rgba(254,254,255,1) 50%,rgba(255,255,255,1) 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  rgba(249,249,255,1) 0%,rgba(254,254,255,1) 50%,rgba(255,255,255,1) 100%); /* IE10+ */
+	background: linear-gradient(to bottom,  rgba(249,249,255,1) 0%,rgba(254,254,255,1) 50%,rgba(255,255,255,1) 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f9f9ff', endColorstr='#ffffff',GradientType=0 ); /* IE6-9 */
+}
+
+#contact-title-container {
+	padding-bottom: 3em;
+}
+
+#contact-title-container img {
+	width: 4em;
+	padding-bottom: 2.5em;
+}
+
+#contact-title {
+	padding-bottom: 0.6em;
+}
+
+#contact-items-container li {
+	/*margin: 4em;*/
+	/*width: 45%;*/
+}
+
+#contact-items-container h4 {
+	font-size: 1.25em;
+	padding-bottom: 1em;
+}
+
+#contact-items-container p {
+	width: 90%;
+}
+
+#contact-items-container img {
+	width: 4.5%;
+	margin-right: 1em;
+}
+
+
+
+
