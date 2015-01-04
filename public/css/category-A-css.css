@@ -1,0 +1,172 @@
+/******************************** Header ********************************/
+#header-container {
+	position: relative;
+	z-index: 1000;
+}
+
+#header-navigation ul li a{
+	color: white;
+}
+
+
+/******************************** Banner ********************************/
+#banner-content-container {
+	position: relative;
+	z-index: 0;
+	margin-top: -5.7em;
+	background-image: url(../resource/sp/category/A/category-A-banner.jpg);
+	background-repeat:no-repeat;
+	background-position:center 0;
+	background-size:cover;
+	height: 40em;
+	min-height: 830px;
+	max-height: 1280px;
+}
+#banner-blank-container {
+	height: 35%;
+	padding-top: 5.7em;
+}
+#banner-title-container {
+	height: 35%;
+}
+
+#banner-title-container h2, #banner-title-container h6 {
+	color: white;
+}
+
+#banner-btn-container .button {
+	background-color: #e81953 !important;
+}
+
+/******************************** Brief ********************************/
+#brief-content-container {
+	padding-top: 3.5em;
+	padding-bottom: 5em;
+}
+
+#brief-title-container h4 {
+	font-size: 1.5em;
+}
+
+#brief-items-list {
+	margin-top: 2em;
+}
+
+#brief-items-list li {
+	padding-left: 3.4%;
+	padding-right: 3.4%;
+}
+
+@media only screen and (min-width: 64.063em) and (max-width: 90em) { 
+	#brief-items-list li {
+		padding-left: 1.7%;
+		padding-right: 1.7%;
+	}
+} /* min-width 1025px and max-width 1440px */
+
+@media only screen and (max-width: 64.063em) { 
+	#brief-items-list li {
+		padding-left: 1.3%;
+		padding-right: 1.3%;
+	}
+} /* max-width 1025px */
+
+
+.brief-item-container {
+	padding-top: 1em;
+	border: 1px solid black;
+	border-radius: 0.2em;
+	height: 18em;
+	overflow: hidden;
+}
+
+.brief-item-container img {
+	margin-top: 1em;
+	margin-bottom: 3em;
+	width: 75%;
+}
+.brief-item-container .item-title {
+	margin-top: 3em;
+	transition: all 0.8s ease-in-out;
+	-webkit-transition: all 0.8s ease-in-out;
+	-moz-transition: all 0.8s ease-in-out;
+	-ms-transition: all 0.8s ease-in-out;
+	-o-transition: all 0.8s ease-in-out;
+}
+
+.brief-item-container p {
+	transition: all 0.8s ease-in-out;
+	-webkit-transition: all 0.8s ease-in-out;
+	-moz-transition: all 0.8s ease-in-out;
+	-ms-transition: all 0.8s ease-in-out;
+	-o-transition: all 0.8s ease-in-out;
+	line-height: 1.5em;
+	padding: 2em;
+	font-size: 0.9em;
+}
+
+.hidden-container {
+	transition: all 0.8s ease-in-out;
+	-webkit-transition: all 0.8s ease-in-out;
+	-moz-transition: all 0.8s ease-in-out;
+	-ms-transition: all 0.8s ease-in-out;
+	-o-transition: all 0.8s ease-in-out;
+}
+
+.brief-item-container:hover .hidden-container {
+	margin-top: -12.3em;
+}
+
+.brief-item-container:hover .item-title{
+	color: #e81953;
+}
+.brief-item-container:hover p {
+	margin-top: -1em;
+} 
+
+/******************************** StartNow ********************************/
+#startnow-content-container {
+	background-image: url(../resource/sp/category/A/A-startnow-background.png);
+	background-repeat:no-repeat;
+	background-position:center 0;
+	background-size:cover;
+	height: 17.7em;
+	min-height: 300px;
+	max-height: 569px;
+}
+
+#startnow-content-container h1 {
+	font-size: 2.33em;
+	color: white;
+	text-shadow: 0px 0px 5px rgba(0, 0, 0, 0.3);
+	margin: 1em;
+	margin-top: 3em;
+}
+
+#startnow-content-container #startnow-btn-container a {
+	background-color: white;
+	color: #e81953;
+}
+
+/******************************** Explore ********************************/
+#explore-content-container {
+	margin-top: 4em;
+	margin-bottom: 4em;
+}	
+
+#explore-content-container #explore-title-container h3 {
+	font-size: 1.5em;
+	margin-bottom: 1em;
+}
+
+#explore-content-container #projects-more-container a{
+	color: #00a0ec;
+}
+
+#explore-items-container {
+	margin-top: 3em;
+	padding-left: 10em;
+	padding-right: 10em;
+	margin-bottom: 4em;
+}
+
