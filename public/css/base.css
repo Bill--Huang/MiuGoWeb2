@@ -48,8 +48,8 @@ body {
 }
 
 #header-navigation ul li a{
-	line-height: 5.7em;
 	color: black;
+	line-height: 5.7em;
 }
 
 /*TODO: Dropdown nav*/

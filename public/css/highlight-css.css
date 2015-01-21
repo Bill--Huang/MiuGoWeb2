@@ -1,0 +1,109 @@
+body {
+	background-image: url(../resource/highlight/highlight-background.png);
+	background-repeat: repeat;
+}
+
+/******************************** Header ********************************/
+#header-logo-img {
+	float: left;
+}
+
+#header-sub-title {
+	margin-left: 1em;
+	float: left;
+	color: white;
+	line-height: 5.7em;
+	font-style: italic;
+}
+
+#header-sub-title span{
+	color: #e81953;
+}
+
+#header-navigation ul li a{
+	color: white;
+}
+
+/******************************** Banner ********************************/
+#banner-content-container {
+	background-image: url(../resource/highlight/highlight-banner.png);
+	background-repeat:no-repeat;
+	background-position:center 0;
+	background-size:cover;
+	height: 7em;
+	min-height: 170px;
+	max-height: 250px;
+}
+
+#banner-slogan-container {
+	padding: 3em;
+}
+
+#banner-slogan-title {
+	font-size: 2.336em;
+	color: white;
+}
+
+/******************************** Section ********************************/
+#section-list {
+	margin-top: 2em;
+}
+
+.section-item {
+	margin-bottom: 0.5em;
+}
+
+.section-item .time-title {
+	color: white;
+	font-weight: lighter;
+}
+
+.section-item .time-title span {
+	color: #e81953;
+	margin-left: 0.6em;
+}
+
+.items-list > li {
+
+}
+
+.section-img-container {
+	position: relative;
+}
+
+.img-description-container {
+	background-color: rgba(0, 0, 0, 0.85);
+	position: absolute;
+	top: 0%;
+	width: 100%;
+	height: 100.1%;
+	opacity: 0;
+	transition: all 0.5s;
+	-webkit-transition: all 0.2s;
+	-moz-transition: all 0.2s;
+	-ms-transition: all 0.2s;
+	-o-transition: all 0.2s;
+}
+
+.img-description-title {
+	position: absolute;
+	width: 100%;
+	top: 35%;
+	margin: 0;
+	color: white;
+}
+
+.img-description-date {
+	position: absolute;
+	width: 100%;
+	bottom: 10%;
+	margin: 0;
+	margin: 0;
+	color: #e81953;
+	font-weight: lighter;
+}
+
+.img-description-container:hover {
+	opacity: 1;
+}
+

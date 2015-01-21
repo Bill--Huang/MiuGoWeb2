@@ -87,6 +87,24 @@
 	width: 10.5em;
 }
 
+#projects-items-list .unhover-icon {
+	display: inline-block;
+}
+
+#projects-items-list .hover-icon {
+	display: none;
+}
+
+#projects-items-list li a:hover .unhover-icon {
+	display: none;
+}
+
+#projects-items-list li a:hover .hover-icon {
+	display: inline-block;
+}
+
+
+
 #projects-more-container h6 a{
 	color: #00a0ec;
 }

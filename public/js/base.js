@@ -7,7 +7,7 @@ jQuery(document).ready(function ($) {
 	$("#projects-slider-button").click(function(){
 		ProjectSliderManager.SliderButtonEvent();
 	});
-
+	
 	// Project.html Tab Ani
 	$(".tab-button").click(function(){
 		ProjectTabManager.TabButtonEvent($(this).attr("content"));
