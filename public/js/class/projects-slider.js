@@ -25,12 +25,12 @@ var ProjectSliderManager = {
 	SlideToNextPage : function() {
 		var oldIndex = ProjectSliderManager.currentSliderPageIndex;
 		ProjectSliderManager.currentSliderPageIndex = (ProjectSliderManager.currentSliderPageIndex + 1) % ProjectSliderManager.totalSliderPageNum;
-		$("#slider-main-img").attr("src", "resource/projects/slider/projects-slider-main-" + ProjectSliderManager.currentSliderPageIndex + ".png");
+		$("#slider-main-img").attr("src", "resource/projects/slider/projects-slider-main-" + ProjectSliderManager.currentSliderPageIndex + ".jpg");
 
 		$("#slider-sub-items-list li").each(function(index, element){
 			// alert(index);
 			var imgIndex = (oldIndex + ProjectSliderManager.totalSliderPageNum - index) % ProjectSliderManager.totalSliderPageNum;
-			$(this).find("img").attr("src", "resource/projects/slider/projects-slider-sub-" + imgIndex + ".png");
+			$(this).find("img").attr("src", "resource/projects/slider/projects-slider-sub-" + imgIndex + ".jpg");
 		});
 	}
 };

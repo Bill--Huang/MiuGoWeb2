@@ -3,6 +3,34 @@ body {
 	min-width: 960px;
 }
 
+/*Font*/
+@font-face {
+    /* font-properties */
+    font-family: "Lantinghei-light";
+    src:url("../resource/font/Lantinghei-light.ttf") format('truetype');
+    font-weight: lighter;
+   	font-style: normal;
+}
+
+@font-face {
+    /* font-properties */
+    font-family: "STHeiti-light.TTF";
+    src:url("../resource/font/STHeiti-light.ttf") format('truetype');
+    font-weight: lighter;
+   	font-style: normal;
+}
+
+h1, h2, h3, h4, a {
+	font-family: "Lantinghei-light", "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+	font-weight: lighter;
+}
+
+h5, h6, p {
+	font-family: "STHeiti-light.TTF", "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+	font-weight: lighter;
+}
+
+
 /******************************** Responsive for retina screen ********************************/
 /*TODO: validation*/
 @media	only screen and (-webkit-min-device-pixel-ratio: 2), (min--moz-device-pixel-ratio: 2),(-o-min-device-pixel-ratio: 2/1),(min-device-pixel-ratio: 2),(min-resolution: 192dpi),(min-resolution: 2dppx) {
@@ -68,7 +96,7 @@ body {
 
 /******************************** Footer ********************************/
 #footer-container {
-	height: 22em;
+	height: 18em;
 	background-color: #232323;
 	color: white;
 }
@@ -121,7 +149,7 @@ body {
 }
 
 #footer-copyright-container {
-	margin-top: 55%;
+	margin-top: 38%;
 }
 
 #footer-copyright-container h6{

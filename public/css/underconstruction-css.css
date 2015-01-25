@@ -1,0 +1,21 @@
+/******************************** Banner ********************************/
+#banner-content-container {
+	/*background-image: url(../resource/sp/underconstruction.jpg);
+	background-repeat:no-repeat;
+	background-position:center 0;
+	background-size:cover;*/
+	padding-bottom: 0;
+	/*height: 38em;
+	min-height: 650px;
+	max-height: 1100px;*/
+	border-bottom: 3em solid #f3f3f3;
+}
+
+#banner-content-container h6{
+	margin-bottom: 0;
+}
+
+#banner-content-container img {
+	width: 100%;
+
+}

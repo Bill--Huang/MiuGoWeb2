@@ -4,12 +4,12 @@ jQuery(document).ready(function ($) {
 
 	// Projects.html Slider Ani
 	ProjectSliderManager.init(false);
-	$("#projects-slider-button").click(function(){
+	$("#slider-button-container").click(function(){
 		ProjectSliderManager.SliderButtonEvent();
 	});
 	
 	// Project.html Tab Ani
-	$(".tab-button").click(function(){
+	$(".category-tab-button").click(function(){
 		ProjectTabManager.TabButtonEvent($(this).attr("content"));
 	});
 });

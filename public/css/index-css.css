@@ -1,3 +1,4 @@
+
 /******************************** Banner ********************************/
 #banner-content-container {
 	background-image: url(../resource/index/banner/banner.jpg);
@@ -59,7 +60,7 @@
 
 .part-content-container {
 	padding-top: 4em;
-	padding-bottom: 4em;
+	padding-bottom: 7em;
 }
 
 .part-items-container {
@@ -69,12 +70,21 @@
 /******************************** Projects ********************************/
 #projects-content-container {
 	/*background-image: url(../resource/index/banner/banner.jpg);*/
-	background-repeat:no-repeat;
+	/*background-repeat:no-repeat;
 	background-position:center 0;
-	background-size:cover;
+	background-size:cover;*/
 /*	height: 37.5em;
 	min-height: 650px;
 	max-height: 1200px;*/
+	background: #f3f3f3; /* Old browsers */
+	background: -moz-linear-gradient(top,  #f3f3f3 0%, #f3f3f3 8%, #ffffff 8%, #ffffff 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#f3f3f3), color-stop(8%,#f3f3f3), color-stop(8%,#ffffff), color-stop(100%,#ffffff)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  #f3f3f3 0%,#f3f3f3 8%,#ffffff 8%,#ffffff 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  #f3f3f3 0%,#f3f3f3 8%,#ffffff 8%,#ffffff 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  #f3f3f3 0%,#f3f3f3 8%,#ffffff 8%,#ffffff 100%); /* IE10+ */
+	background: linear-gradient(to bottom,  #f3f3f3 0%,#f3f3f3 8%,#ffffff 8%,#ffffff 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f3f3f3', endColorstr='#ffffff',GradientType=0 ); /* IE6-9 */
+
 }
 
 #projects-content-container h3, #projects-content-container h6 {
@@ -82,9 +92,9 @@
 }
 
 #projects-items-list li a div img {
-	margin-bottom: 2em;
+	margin-bottom: 1em;
 	/*width: 60%;*/
-	width: 10.5em;
+	width: 5em;
 }
 
 #projects-items-list .unhover-icon {
@@ -124,7 +134,7 @@
 	margin-bottom: 2em;
 	width: 8.5em;
 	border-radius: 8.5em;
-	border: 0.2em solid white;
+	border: 0.15em solid gray;
 }
 
 #team-more-container {
@@ -133,10 +143,11 @@
 
 /******************************** Enterprise ********************************/
 #enterprise-content-container {
-	background-image: url(../resource/index/enterprise/enterprise-background.jpg);
+	/*background-image: url(../resource/index/enterprise/enterprise-background.jpg);
 	background-repeat:no-repeat;
 	background-position:center 0;
-	background-size:cover;
+	background-size:cover;*/
+	background-color: #3f484b;
 /*	height: 37.5em;
 	min-height: 650px;
 	max-height: 1200px;*/
@@ -144,4 +155,8 @@
 
 #enterprise-more-container {
 	margin-top: 6em;
+}
+
+#enterprise-items-container img {
+	width: 65%;
 }

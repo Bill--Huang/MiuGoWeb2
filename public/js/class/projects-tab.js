@@ -6,18 +6,18 @@ var ProjectTabManager = {
 	},
 
 	TabButtonEvent : function(index) {
-		ProjectTabManager.ChangeTab(index);
+		ProjectTabManager.ChangeTabPage(index);
 	},
 
-	ChangeTab : function(index) {
-		$("#tabs-button-list li").each(function(i){
-			$(this).find("a").removeClass("active");
+	ChangeTabPage : function(index) {
+		$(".category-tab-button").each(function(i){
+			$(this).removeClass("active");
 			if(i == index) {
-				$(this).find("a").addClass("active");
+				$(this).addClass("active");
 			}
 		});
 
-		$("#tab-page-list > li").each(function(i){
+		$("#categories-pages-list > li").each(function(i){
 			$(this).addClass("hide");
 			if(i == index) {
 				$(this).removeClass("hide");

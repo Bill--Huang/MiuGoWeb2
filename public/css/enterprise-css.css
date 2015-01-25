@@ -45,7 +45,7 @@ h3 {
 }
 
 #banner-decoration {
-	background-image: url(../resource/enterprise/banner/enterprise-banner-decoration.png);
+	background-image: url(../resource/enterprise/banner/enterprise-banner-decoration2.png);
 	background-repeat:no-repeat;
 /*	background-position:center bottom;
 	background-size: contain;*/
@@ -70,6 +70,10 @@ h3 {
 }
 
 #brief-logo-container {
+}
+
+#brief-logo-container img {
+	width: 65%;
 }
 
 /******************************** Process ********************************/
